@@ -1,0 +1,212 @@
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  gap: 20px;
+  background-color: #EDF7FA;
+}
+.main .main-header {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .main-header h2 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+  color: #21243D;
+}
+.main .main-header a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #00A8CC;
+}
+
+.main-boxes {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.main-boxes .main-box {
+  padding: 25px 20px;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.2509803922);
+}
+.main-boxes .main-box h2 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 38px;
+  color: #21243D;
+}
+.main-boxes .main-box .main_box_data {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.main-boxes .main-box .main_box_data h3 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #21243D;
+}
+.main-boxes .main-box .main_box_data .slash {
+  height: 21px;
+  border: 1px solid #000000;
+  rotate: 180deg;
+}
+.main-boxes .main-box p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #21243D;
+}
+
+@media (max-width: 1740px) {
+  .main .main-header {
+    display: flex;
+    justify-content: center;
+  }
+  .main .main-header h2 {
+    text-align: center;
+  }
+  .main .main-header a {
+    display: none;
+  }
+  .main .main-boxes {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 450px) {
+  .main .main-boxes h2 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  .main .main-boxes .main_box_data h3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+  }
+}
+.main1 {
+  padding-top: 25px;
+  padding-bottom: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.main1 h2 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+  color: #21243D;
+}
+
+.main1-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.main1-boxes .main1-box {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.main1-boxes .main1-box img {
+  max-width: 250px;
+}
+.main1-boxes .main1-box .main1-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 65%;
+}
+.main1-boxes .main1-box .main1-desc h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #21243D;
+}
+.main1-boxes .main1-box .main1-desc .main1-year {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.main1-boxes .main1-box .main1-desc .main1-year h5 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #8695A4;
+}
+.main1-boxes .main1-box .main1-desc .main1-year .year {
+  width: 60px;
+  height: 25px;
+  background-color: #142850;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main1-boxes .main1-box .main1-desc .main1-year .year h6 {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 60px;
+  color: #fff;
+}
+.main1-boxes .main1-box .main1-desc p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #21243D;
+}
+
+.main1-line {
+  width: 100%;
+  border: 1px solid #E0E0E0;
+}
+
+@media (max-width: 960px) {
+  .main1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main1 .main1-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main1 .main1-boxes .main1-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .main1-desc h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  .main1-desc .main1-year h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}/*# sourceMappingURL=main.css.map */
